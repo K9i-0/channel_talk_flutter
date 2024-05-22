@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'ChannelIOSDK', '11.6.0'
+  s.dependency 'ChannelIOSDK', '11.6.1'
   s.platform = :ios, '12.0'
   s.resource_bundles = {'channel_talk_flutter_privacy' => ['PrivacyInfo.xcprivacy']}
 
